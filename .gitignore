@@ -33,4 +33,4 @@ MUJOCO_LOG.TXT
 #ros
 ros2/build/
 ros2/install/
-ros2/log/
+ros2/log/gym_custom/envs/real/ur/drivers/log/
