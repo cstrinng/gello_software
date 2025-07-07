@@ -1,0 +1,15 @@
+2025-07-07 15:36:43,030 - gym_custom_envs_real_ur_drivers_URBasic_robotModelEvent - INFO - Init done
+2025-07-07 15:36:43,531 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Connected
+2025-07-07 15:36:43,531 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - RT_CLient constructor done
+2025-07-07 15:36:43,532 - gym_custom_envs_real_ur_drivers_URBasic_dataLogEvent - INFO - Data logging (not event logging) is disabled
+2025-07-07 15:36:43,533 - gym_custom_envs_real_ur_drivers_URBasic_dataLogEvent - INFO - DataLog constructor done
+2025-07-07 15:36:43,533 - gym_custom_envs_real_ur_drivers_URBasic_dataLogEvent - INFO - DataLog is stopped
+2025-07-07 15:36:43,534 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - RTDE constructor done
+2025-07-07 15:36:43,846 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - Controller version: 3.3.1-60
+2025-07-07 15:36:43,849 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - RTDE started
+2025-07-07 15:36:44,036 - gym_custom_envs_real_ur_drivers_URBasic_dashboardEvent - INFO - Connected
+2025-07-07 15:36:44,036 - gym_custom_envs_real_ur_drivers_URBasic_dashboardEvent - INFO - UR Dashboard respond Connected: Universal Robots Dashboard Server
+2025-07-07 15:36:44,037 - gym_custom_envs_real_ur_drivers_URBasic_dashboardEvent - INFO - Dashboard server constructor done
+2025-07-07 15:36:44,037 - gym_custom_envs_real_ur_drivers_URBasic_robotConnectorEvent - INFO - Init done
+2025-07-07 15:36:44,037 - gym_custom_envs_real_ur_drivers_URBasic_urScriptEvent - INFO - Init done!!!
+2025-07-07 15:36:44,048 - gym_custom_envs_real_ur_drivers_URBasic_urScriptExtEvent - INFO - Init done

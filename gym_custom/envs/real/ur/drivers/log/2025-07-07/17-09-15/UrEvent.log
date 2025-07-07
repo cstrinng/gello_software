@@ -1,0 +1,2060 @@
+2025-07-07 17:09:15,010 - gym_custom_envs_real_ur_drivers_URBasic_robotModelEvent - INFO - Init done
+2025-07-07 17:09:15,511 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Connected
+2025-07-07 17:09:15,511 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - RT_CLient constructor done
+2025-07-07 17:09:15,521 - gym_custom_envs_real_ur_drivers_URBasic_dataLogEvent - INFO - Data logging (not event logging) is disabled
+2025-07-07 17:09:15,522 - gym_custom_envs_real_ur_drivers_URBasic_dataLogEvent - INFO - DataLog constructor done
+2025-07-07 17:09:15,522 - gym_custom_envs_real_ur_drivers_URBasic_dataLogEvent - INFO - DataLog is stopped
+2025-07-07 17:09:15,523 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - RTDE constructor done
+2025-07-07 17:09:15,905 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - Controller version: 3.3.1-60
+2025-07-07 17:09:15,908 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - RTDE started
+2025-07-07 17:09:16,025 - gym_custom_envs_real_ur_drivers_URBasic_dashboardEvent - INFO - Connected
+2025-07-07 17:09:16,026 - gym_custom_envs_real_ur_drivers_URBasic_dashboardEvent - INFO - UR Dashboard respond Connected: Universal Robots Dashboard Server
+2025-07-07 17:09:16,026 - gym_custom_envs_real_ur_drivers_URBasic_dashboardEvent - INFO - Dashboard server constructor done
+2025-07-07 17:09:16,026 - gym_custom_envs_real_ur_drivers_URBasic_robotConnectorEvent - INFO - Init done
+2025-07-07 17:09:16,026 - gym_custom_envs_real_ur_drivers_URBasic_urScriptEvent - INFO - Init done!!!
+2025-07-07 17:09:16,036 - gym_custom_envs_real_ur_drivers_URBasic_urScriptExtEvent - INFO - Init done
+2025-07-07 17:09:17,646 - gym_custom_envs_real_ur_interfaceEvent - INFO - [] init done
+2025-07-07 17:09:17,646 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+end_freedrive_mode()
+
+2025-07-07 17:09:19,479 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.02221493718667071, -1.479159039559873, -1.5443925261396478, -1.6084740247067422, 1.563915294922575, 3.1163467884063722], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,495 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.022189375966249727, -1.4791651104003183, -1.544408141636254, -1.6084355069379952, 1.563928052166181, 3.1163589477539064], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,509 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.022210888195638333, -1.479178788555668, -1.5444161966256091, -1.6084757669614376, 1.5639091946424069, 3.1163708686828615], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,525 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.022185506866648344, -1.4791850738441397, -1.5444244974766745, -1.6084337677014233, 1.563942109753167, 3.116334867477417], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,544 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.022210888195638333, -1.479170908710589, -1.5443922418965692, -1.608452127426201, 1.563932991774545, 3.1163708686828615], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,556 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.022163605585390676, -1.4791630288655102, -1.5438931964401559, -1.6084678871163587, 1.5639091946424069, 3.1163708686828615], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,572 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.022231066086621377, -1.4791918610082677, -1.543873282105641, -1.6084513314317699, 1.563995045962621, 3.1162509441375734], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,592 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.022235240021774332, -1.4792280391381627, -1.5444050500332558, -1.6084303837978278, 1.5640444309927464, 3.116179180145264], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,604 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.022400566525963072, -1.4793954705462689, -1.5444064691973927, -1.608375142298936, 1.5643238071092616, 3.115855884552002], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,620 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.022507735493464843, -1.479488134664202, -1.5438831381564224, -1.6083789748529735, 1.5644926709382265, 3.1156880378723146], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,636 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.022714690943447993, -1.4796663587531913, -1.543881173805482, -1.6082878906486748, 1.5648110167022744, 3.1153051376342775], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,652 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.02289774043258498, -1.479812067923049, -1.5438839433714044, -1.6082552067175802, 1.5650301460562752, 3.1149699211120607], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,668 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.023146672774983466, -1.4800812785372344, -1.5439126975283286, -1.6081100011675444, 1.5654551433349568, 3.114383411407471], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,688 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.023709975885786706, -1.4806590474403925, -1.5444443610394796, -1.607900003515262, 1.5662384953245316, 3.113820028305054], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,700 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.024114237243012343, -1.4810618310769021, -1.5444911545456248, -1.6076571588507185, 1.5669112948193835, 3.112993907928467], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,716 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.02458672446680691, -1.481525217912829, -1.5439429122765231, -1.6074816398085652, 1.5675078145623744, 3.1121198654174806], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,736 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.025249002396254206, -1.4822518213775187, -1.5440039652410158, -1.607159542441466, 1.5685712096415085, 3.110742521286011], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,748 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.02592671832958844, -1.4829938163651304, -1.5445626848691787, -1.606914677339018, 1.5695802634171607, 3.1093656539916994], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,764 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.026654587160089817, -1.483739893297878, -1.5445944692246465, -1.6065983913653474, 1.5706726586753705, 3.1079642295837404], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,780 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.027566846183150258, -1.4846500884632086, -1.5446319173372522, -1.6062610740098306, 1.571369529904197, 3.1063000679016115], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,797 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.028412251941013125, -1.485546360190102, -1.5446478812652973, -1.6059126244250468, 1.5726109562029098, 3.104587268829346], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,813 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.028947951415947273, -1.486127545753818, -1.5442637031457565, -1.60563766926735, 1.5733704366458214, 3.1036054611206056], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,828 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.028856734732041846, -1.4861107495737702, -1.5442051399885717, -1.6055816739677102, 1.5733346494869627, 3.103653383255005], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,845 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.029151631349257703, -1.4863857029768581, -1.544898768002631, -1.6055845829095035, 1.5735178629470146, 3.1033181667327883], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,861 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.029160827696148302, -1.4863958047549701, -1.5447949143319106, -1.6054886291139676, 1.5736466687870467, 3.103150796890259], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,877 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.5293788455219843, -1.547786614961274, -1.5876701154616386, 1.6352235198860932, 3.020408171346827], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,893 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.5293788455219843, -1.5477866149764588, -1.5876701154616386, 1.6352235198860932, 3.020408171346827], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,900 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.5293788455219843, -1.5477866149766106, -1.5876701154616386, 1.6352235198860932, 3.020408171346827], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,909 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.020408171346827], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,917 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.020408171346827], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,933 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.020408171346827], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,941 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.020408171346827], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,948 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.020408171346827], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,957 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.020408171346827], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,973 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.020408171346827], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,981 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.020408171346827], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,989 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.020408171346827], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:19,996 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.0720817572227463, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.021926812326834], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,014 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209694363254637, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.021941998736634], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,020 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709549664438, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.021942150600732], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,029 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709701528536, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.021942152119373], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,044 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703047176, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521345593], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,053 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062363, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.021942152134711], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,061 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062515, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521347125], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,068 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521347125], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,084 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521347125], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,092 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521347125], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,100 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521347125], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,108 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521347125], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,125 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521347125], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,133 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521347125], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,140 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521347125], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,148 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521347125], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,164 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521347125], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,174 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521347125], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,181 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0219421521347125], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,188 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.633704878906087, 3.0234607931147197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,206 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.633689692496287, 3.02347597952452], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,212 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.633689540632189, 3.023476131388618], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,221 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.635208180093554, 3.024994773887266], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,236 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352233664881677, 3.025009960312252], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,245 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235183521138, 3.0250101121765023], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,252 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198707534, 3.026528754675151], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,260 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198859397, 3.026543941100138], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,278 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860916, 3.0265440929643876], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,284 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.02654409448303], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,294 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0265440944982167], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,308 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5293788455219843, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0265440944983686], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,318 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.530897486501991, -1.5477866149766122, -1.5876701154616386, 1.633704878906087, 3.02654409449837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,326 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5309126729117912, -1.5477866149766122, -1.5876701154616386, 1.633689692496287, 3.02654409449837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,333 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07209709703062517, -1.5309128247758892, -1.5477866149766122, -1.5876701154616386, 1.633689540632189, 3.02654409449837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,350 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07057845605061823, -1.5309128262945302, -1.5477866149766122, -1.5876701154616386, 1.635208180093554, 3.02654409449837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,356 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056326964081816, -1.5309128263097167, -1.5477866149766122, -1.5876701154616386, 1.6352233664881677, 3.02654409449837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,366 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311777672016, -1.5309128263098686, -1.5477866149766122, -1.5876701154616386, 1.6352235183521138, 3.02654409449837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,380 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311625807918, -1.53091282630987, -1.5477866149766122, -1.5876701154616386, 1.6352235198707534, 3.02654409449837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,390 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624289277, -1.53091282630987, -1.5477866149766122, -1.5876701154616386, 1.6352235198859397, 3.02654409449837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,399 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.0705631162427409, -1.53091282630987, -1.5477866149766122, -1.5876701154616386, 1.6352235198860916, 3.02654409449837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,403 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273938, -1.53091282630987, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.02654409449837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,424 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.53091282630987, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.02654409449837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,429 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.53091282630987, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.02654409449837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,440 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.07056311624273937, -1.53091282630987, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.02654409449837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,452 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.06904447526273286, -1.5324314672898764, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0295813764583834], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,462 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.0690292888529328, -1.5324466536996766, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0296117492779837], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,471 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.0690291369888348, -1.5324468055637746, -1.5477866149766122, -1.5876701154616386, 1.6352235198860932, 3.0296120530061796], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,485 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.06902913547019382, -1.5339654480624223, -1.5477866149766122, -1.5861514744816319, 1.6352235198860932, 3.032649338003475], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,494 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.06902913545500741, -1.5339806344874087, -1.5477866149766122, -1.5861362880718317, 1.6352235198860932, 3.032679710853448], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,500 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.06902913545485555, -1.5339807863516588, -1.5477866149766122, -1.5861361362077337, 1.6352235198860932, 3.0326800145819477], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,518 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.06599185349484013, -1.5339807878703011, -1.5477866149766122, -1.5861361346890928, 1.6367421608661001, 3.03419865859924], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,524 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.06596148067523998, -1.5339807878854876, -1.5477866149766122, -1.5861361346739065, 1.6367573472759003, 3.034213845039413], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,534 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.06596117694704398, -1.5339807878856395, -1.5477866149766122, -1.5861361346737546, 1.6367574991399982, 3.034213996903815], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,548 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.05988660998973512, -1.5370180698456548, -1.5477866149766122, -1.586136134673753, 1.6367575006586392, 3.0342139984224588], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,559 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.05982586432016203, -1.5370484426652549, -1.5477866149766122, -1.586136134673753, 1.6367575006738255, 3.0342139984376453], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,564 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.0598252568634663, -1.5370487463934508, -1.5477866149766122, -1.586136134673753, 1.6367575006739774, 3.034213998437797], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,573 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.053750686868872, -1.541604672370753, -1.5477866149766122, -1.5830988527137393, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,588 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.05368994116892606, -1.541650231630526, -1.5477866149766122, -1.5830684798941392, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,596 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.0536893337119266, -1.541650687223124, -1.5477866149766122, -1.583068176165943, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,608 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.04457748175731582, -1.5462066147190703, -1.5477866149766122, -1.5815495321486543, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,620 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.044486363237769715, -1.5462521739940298, -1.5477866149766122, -1.5815343457084816, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,632 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.04448545205257425, -1.5462526295867793, -1.5477866149766122, -1.58153419384408, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,636 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.033854956080675, -1.5508085570827272, -1.5462679739966052, -1.5800155513454293, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,656 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.03374865112095601, -1.5508541163576868, -1.546252787586805, -1.5800003649204428, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,660 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.03374758807135882, -1.5508545719504363, -1.546252635722707, -1.580000213056193, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,681 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.027673013520835513, -1.5584477814063977, -1.5462526342040661, -1.5769629295775367, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,684 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.02761226777533028, -1.5585237135009573, -1.5462526341888798, -1.5769325567427501, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,706 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.02305573737785527, -1.56459903674193, -1.544733993208721, -1.5693390481143685, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,717 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.023010172073880522, -1.5646597899743397, -1.5447188067989193, -1.5692631130280845, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,723 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.023009716420840775, -1.5646603975066637, -1.5447186549348213, -1.5692623536772219, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,732 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.021491070884303434, -1.5707349675020144, -1.5447186534161803, -1.5586318592236656, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,740 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.02147588442893806, -1.5707957132019679, -1.544718653400994, -1.55852555427913, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,757 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.021475732564384405, -1.5707963206589675, -1.5447186534008421, -1.5585244912296847, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,764 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.02147573104573887, -1.5768708906535644, -1.5432000124208336, -1.546375352759136, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,776 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.021475731030552413, -1.5769316363535104, -1.5431848260110335, -1.5462538613744305, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,789 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.021475731030400548, -1.5769322438105098, -1.5431846741469355, -1.5462526464605835, 1.636757500673979, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,800 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.019957090050392083, -1.5830068138051068, -1.5416660316482875, -1.5356221474513974, 1.638276141653986, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,804 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.019941903640592, -1.5830675595050527, -1.541650845223301, -1.5355158424613056, 1.638291328063786, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,825 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.019941751776493998, -1.5830681669620523, -1.5416506933590512, -1.5355147794114046, 1.638291479927884, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,828 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.016904468297839568, -1.5891427369566495, -1.5416506918404087, -1.5264029229008649, 1.638291481446525, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,849 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.016874095463053025, -1.5892034826565955, -1.5416506918252222, -1.5263118043357595, 1.6382914814617113, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,852 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.01687379173470516, -1.5892040901135949, -1.5416506918250703, -1.5263108931501084, 1.6382914814618632, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,873 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.012317865757401288, -1.596797301088199, -1.540132050845063, -1.5232736020782385, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,876 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.01227230649762825, -1.596873233197945, -1.540116864435263, -1.5232432291675198, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,897 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.007715927965010126, -1.599911274479056, -1.537079430611151, -1.5217242844584056, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,900 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.007670364179683944, -1.599941654891867, -1.5370490562729098, -1.5217090950113143, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,921 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.007669908541830682, -1.5999419586959953, -1.5370487525295276, -1.5217089431168436, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,924 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.003113981045431756, -1.60297924369405, -1.5355301085120867, -1.5217089415978988, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,946 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.003068421770467767, -1.6030096165440306, -1.5355149220719122, -1.5217089415827094, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,956 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.001549325197711622, -1.6075658432125508, -1.5309588472674904, -1.5217089415825573, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,964 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.0015341342319840606, -1.607611405479236, -1.5309132865194461, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,972 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-0.001533982322326785, -1.607611861101903, -1.5309128309119657, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,989 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-1.5339823223267864e-05, -1.6121677885981496, -1.5263569034158702, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:20,996 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-1.533982322326788e-07, -1.6122133478731122, -1.5263113441409093, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,017 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([-1.5339823223267893e-09, -1.6122138034658617, -1.5263108885481598, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,020 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.003037281944673626, -1.6167697309618096, -1.5247922430122252, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,041 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0030676547794601856, -1.6168152902367692, -1.524777056556866, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,044 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0030679585078080512, -1.6168157458295187, -1.5247769046923123, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,065 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.006105243505105418, -1.61985303234546, -1.5232582621936606, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,068 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.006135616355078392, -1.6198834052106195, -1.5232430757686741, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,084 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.009173202043591571, -1.6214023499192776, -1.5217242829244173, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,092 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.009203577900476703, -1.6214175393663641, -1.5217090949959746, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,109 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.009203881659045555, -1.621417691260835, -1.5217089431166904, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,116 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.010722525676637748, -1.6229363337597864, -1.5186716596378838, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,136 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.01073771211681367, -1.622951520184776, -1.5186412868030956, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,140 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.010737863981215429, -1.6229516720490258, -1.5186409830747478, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,160 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.012256506479866392, -1.6275075965076888, -1.5156036980774512, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,164 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.012271692904852902, -1.6275531557522755, -1.5155733252274783, -1.521708941582556, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,184 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.012271844769102766, -1.629072252324728, -1.5125357395389645, -1.5201903006025494, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,188 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.012271846287745265, -1.6290874432904527, -1.5125053636820793, -1.5201751141927493, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,209 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.01227184630293169, -1.6290875952001098, -1.5125050599235106, -1.5201749623286513, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,212 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.015309128263097002, -1.63212487867922, -1.5079491339459041, -1.5201749608100104, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,234 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.015339501082698655, -1.6321552515140112, -1.507903574686128, -1.5201749607948238, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,244 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.016858445790901615, -1.6351928372023725, -1.5033471961535103, -1.520174960794672, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,252 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.016873635237983645, -1.635223213059256, -1.503301632368184, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,260 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.016873787132454465, -1.635223516817825, -1.5033011767303308, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,281 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.019911070611412625, -1.6367421608354176, -1.5017825311939454, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,284 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.019941443446202207, -1.6367573472755936, -1.5017673447385815, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,305 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.019941747174550103, -1.6367574991399954, -1.501767192874028, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,308 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.021460391191840525, -1.6382761416386462, -1.5017671913553823, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,329 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02147557763201343, -1.6382913280636326, -1.5017671913401958, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,332 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.021475729496415158, -1.6382914799278825, -1.5017671913400439, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,349 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.021475731015059178, -1.638291481446525, -1.5002485503600358, -1.521693601774677, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,356 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.021475731030245616, -1.6382914814617113, -1.5002333639502357, -1.521708788184477, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,373 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.022994372010404426, -1.6382914814618632, -1.4987145711061316, -1.5201902990685685, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,380 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.023009558420206015, -1.6382914814618648, -1.4986993831776905, -1.5201751141774096, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,397 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02300971028430403, -1.6382914814618648, -1.498699231298406, -1.520174962328498, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,404 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02300971180294501, -1.6382914814618648, -1.4986992297796133, -1.5201749608100088, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,426 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02300971181813142, -1.6382914814618648, -1.4986992297644253, -1.5201749607948238, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,436 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.023009711818283284, -1.6382914814618648, -1.4986992297642734, -1.520174960794672, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,444 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.023009711818284803, -1.6382914814618648, -1.4986992297642718, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,452 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.023009711818284817, -1.6382914814618648, -1.4986992297642718, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,468 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02452835279829132, -1.6382914814618648, -1.4971805887842649, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,476 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.024543539208091388, -1.6382914814618648, -1.497165402374465, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,492 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02454369107218939, -1.6382914814618648, -1.4971652505103668, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,500 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02454369259083037, -1.6382914814618648, -1.4956466080117188, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,521 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.024543692606016777, -1.6382914814618648, -1.4956314215867323, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,524 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.024543692606168642, -1.6382914814618648, -1.4956312697224825, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,545 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.026062333586177107, -1.6382914814618648, -1.494112627223833, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,548 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02607751999597719, -1.6382914814618648, -1.4940974407988465, -1.5201749607946704, 1.6382914814618648, 3.0342139984377985], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,569 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027596312840081696, -1.6382914814618648, -1.4940972889345967, -1.5201749607946704, 1.6382914814618648, 3.035732639417805], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,573 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611500768522743, -1.6382914814618648, -1.4940972874159542, -1.5201749607946704, 1.6382914814618648, 3.0357478258276047], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,588 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611652647807152, -1.6382914814618648, -1.4940972874007679, -1.5201749607946704, 1.6382914814618648, 3.035747977691703], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,596 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03216757710662039, -1.6382914814618648, -1.494097287400616, -1.5201749607946704, 1.6382914814618648, 3.0387852611703576], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,617 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.032213136351208524, -1.6382914814618648, -1.4940972874006144, -1.5201749607946704, 1.6382914814618648, 3.038815634005144], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,620 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.032213591943654404, -1.6382914814618648, -1.4940972874006144, -1.5201749607946704, 1.6382914814618648, 3.038815937733492], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,639 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03221359649957886, -1.6382914814618648, -1.4925786464206074, -1.5201749607946704, 1.6382914814618648, 3.0403345817507823], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,647 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.032213596545138105, -1.6382914814618648, -1.4925634600108073, -1.5201749607946704, 1.6382914814618648, 3.0403497681909553], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,664 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03373223752560064, -1.6382914814618648, -1.4925633081467093, -1.5201749607946704, 1.6382914814618648, 3.040349920055357], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,671 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.033747423935405266, -1.6382914814618648, -1.4925633066280684, -1.5201749607946704, 1.6382914814618648, 3.040349921574001], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,687 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03374757579950331, -1.6382914814618648, -1.4925633066128818, -1.5201749607946704, 1.6382914814618648, 3.0403499215891876], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,696 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03374757731814429, -1.6382914814618648, -1.4895260246527173, -1.5201749607946704, 1.6382914814618648, 3.0418685625693462], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,700 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.033747577333330704, -1.6382914814618648, -1.4894956518331155, -1.5201749607946704, 1.6382914814618648, 3.041883748979148], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,716 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03374757733348256, -1.6382914814618648, -1.4894953481049196, -1.5201749607946704, 1.6382914814618648, 3.0418839008432457], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,728 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03374757733348408, -1.6382914814618648, -1.4879767040876306, -1.5201749607946704, 1.6382914814618648, 3.041883902361887], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,736 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0337475773334841, -1.6382914814618648, -1.4879615176474577, -1.5201749607946704, 1.6382914814618648, 3.0418839023770734], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,747 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0337475773334841, -1.6382914814618648, -1.487961365783056, -1.5201749607946704, 1.6382914814618648, 3.0418839023772253], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,759 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03526621831349105, -1.6382914814618648, -1.487961364264412, -1.5201749607946704, 1.6382914814618648, 3.0418839023772266], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,763 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03528140472329112, -1.6382914814618648, -1.4879613642492255, -1.5201749607946704, 1.6382914814618648, 3.0418839023772266], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,783 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281556587389115, -1.6382914814618648, -1.4879613642490737, -1.5201749607946704, 1.6382914814618648, 3.0418839023772266], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,787 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03983748104605049, -1.6382914814618648, -1.487961364249072, -1.5201749607946704, 1.6382914814618648, 3.04492118433724], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,796 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.039883040290637106, -1.6382914814618648, -1.487961364249072, -1.5201749607946704, 1.6382914814618648, 3.0449515571568404], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,816 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03988349588308297, -1.6382914814618648, -1.487961364249072, -1.5201749607946704, 1.6382914814618648, 3.0449518608850363], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,819 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.044439423379027385, -1.6382914814618648, -1.4864427232690651, -1.5201749607946704, 1.6382914814618648, 3.0464705049023246], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,836 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.04448498265398683, -1.6382914814618648, -1.4864275368592652, -1.5201749607946704, 1.6382914814618648, 3.0464856913424976], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,844 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.044485438246736425, -1.6382914814618648, -1.486427384995167, -1.5201749607946704, 1.6382914814618648, 3.046485843206899], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,856 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.04600408378267086, -1.6382914814618648, -1.484908742496519, -1.5201749607946704, 1.6382914814618648, 3.051041767665564], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,869 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0460192702380302, -1.6382914814618648, -1.4848935560715326, -1.5201749607946704, 1.6382914814618648, 3.051087326910151], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,879 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0460194221025838, -1.6382914814618648, -1.4848934042072828, -1.5201749607946704, 1.6382914814618648, 3.051087782502597], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,890 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.04753806460123628, -1.6382914814618648, -1.4833747617086332, -1.5201749607946704, 1.6382914814618648, 3.054125069018534], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,903 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.047553251026222806, -1.6382914814618648, -1.4833595752836468, -1.5201749607946704, 1.6382914814618648, 3.0541554418836934], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,908 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.04755340289047267, -1.6382914814618648, -1.483359423419397, -1.5201749607946704, 1.6382914814618648, 3.054155745612345], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,927 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.047553404409115166, -1.6382914814618648, -1.4803221399407416, -1.521693601774677, 1.6398101224418717, 3.0571930306096453], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,932 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.047553404424301594, -1.6382914814618648, -1.480291767105955, -1.521708788184477, 1.6398253088516719, 3.057223403459618], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,940 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.04755340442445346, -1.6382914814618648, -1.4802914633776072, -1.521708940048575, 1.6398254607157698, 3.0572237071881183], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,956 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.04907204540446149, -1.6382914814618648, -1.4787728193603167, -1.521708941567216, 1.6398254622344108, 3.057223710225403], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,964 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.04908723181426156, -1.6382914814618648, -1.4787576329201437, -1.5217089415824026, 1.6398254622495974, 3.057223710255776], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,975 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.04908738367835956, -1.6382914814618648, -1.478757481055742, -1.5217089415825544, 1.639825462249749, 3.0572237102560798], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,988 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05060602617700749, -1.6382914814618648, -1.4772388385570911, -1.5201903006025494, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:21,999 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05062121260199397, -1.6382914814618648, -1.4772236521321045, -1.5201751141927493, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,007 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05062136446624384, -1.6382914814618648, -1.4772235002678547, -1.5201749623286513, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,012 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05214000696489328, -1.6382914814618648, -1.4772234987492123, -1.5201749608100104, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,031 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05215519338987977, -1.6382914814618648, -1.4772234987340258, -1.5201749607948238, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,036 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05215534525412964, -1.6382914814618648, -1.477223498733874, -1.520174960794672, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,047 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05367398775277864, -1.6382914814618648, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,060 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05368917417776513, -1.6382914814618648, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,072 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05368932604201499, -1.6382914814618648, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,076 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05672660952067138, -1.6382914814618648, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,084 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.056756982355457945, -1.6382914814618648, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,100 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.056757286083805814, -1.6382914814618648, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,108 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728912108929, -1.6398101224418715, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,120 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915146212, -1.6398253088516717, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,132 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176585, -1.6398254607157696, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,144 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176889, -1.6443813851744309, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,148 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6444269444190176, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,169 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6444274000114634, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,171 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.059794571111782366, -1.644427404567388, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,188 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.059824943931382504, -1.644427404612947, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,196 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0598252476595785, -1.6444274046134026, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,218 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525069686046, -1.647464686573421, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,228 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.059825250727233284, -1.647495059393021, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,241 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06134389170754352, -1.649014004101224, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,243 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135907811734662, -1.649029193548306, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,265 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135922998144465, -1.6490293454427767, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,268 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923150008563, -1.6505479879417282, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,290 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151527204, -1.6505631743667177, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,300 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.061359231515423905, -1.6505633262309676, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,308 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.061359231515425425, -1.6505633277496101, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,316 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6505633277647966, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,333 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6505633277649485, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,341 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6505633277649499, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,356 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6505633277649499, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,365 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6520819687449564, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,373 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6520971551547565, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,388 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6520973070188545, -1.4772234987338724, -1.5201749607946704, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,396 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6520973085374955, -1.4772234987338724, -1.5171376788346567, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,412 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.652097308552682, -1.4772234987338724, -1.5171073060150566, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,421 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6520973085528339, -1.4772234987338724, -1.5171070022868607, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,428 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.655134590512849, -1.4772234987338724, -1.5125510763095584, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,436 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6551649633324492, -1.4772234987338724, -1.5125055170497854, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,453 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6551652670606452, -1.4772234987338724, -1.5125050614571875, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,460 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6612398340179544, -1.4772234987338724, -1.5064304929812347, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,475 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6613005796875275, -1.4772234987338724, -1.506369747296475, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,484 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6613011871442231, -1.4772234987338724, -1.5063691398396275, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,492 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6643384751788037, -1.4787421397138794, -1.5018132108250386, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,509 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6643688480591494, -1.4787573261236795, -1.5017676515348926, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,516 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.664369151787953, -1.4787574779877775, -1.5017671959419912, 1.6398254622497506, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,529 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6674064367852546, -1.4787574795064184, -1.497211268446042, 1.6413441032297573, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,540 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6674368096352274, -1.4787574795216047, -1.4971657091710824, 1.6413592896395575, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,548 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6674371133637274, -1.4787574795217566, -1.4971652535783329, 1.6413594415036554, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,556 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.670474398361026, -1.4802761205017652, -1.4926093260823847, 1.6428780840023025, 3.055705069276076], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,572 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.670504771210999, -1.4802913069115653, -1.4925637668074254, 1.642893270427289, 3.0556898828662757], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,580 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6705050749394987, -1.4802914587756633, -1.4925633112146757, 1.6428934222915388, 3.055689731002178], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,588 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6720237189567904, -1.481810101274311, -1.4910446656787415, 1.653523910670229, 3.055689729483537], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,604 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.672038905396963, -1.4818252876992974, -1.4910294792233822, 1.6536302155540161, 3.0556897294683507], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,612 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6720390572613648, -1.4818254395635473, -1.4910293273588286, 1.653631278602854, 3.055689729468199], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,624 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6735576997600157, -1.483344082062196, -1.4864734029001627, 1.667299058053404, 3.057208370448204], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,636 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.673572886185002, -1.4833592684871824, -1.486427843655576, 1.6674357358479095, 3.057223556858004], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,648 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.673573038049252, -1.4833594203514324, -1.4864273880631302, 1.6674371026258545, 3.057223708722102], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,653 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6735730395678945, -1.4848780628500817, -1.4803528195871787, 1.6795862441336877, 3.057223710240743], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,673 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.673573039583081, -1.4848932492750684, -1.4802920739024192, 1.6797077355487662, 3.057223710255929], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,676 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.673573039583233, -1.4848934011393182, -1.4802914664455715, 1.679708950462917, 3.057223710256081], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,696 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.678128962523255, -1.4864120436379675, -1.4711796144909621, 1.6873021675120923, 3.055705069276076], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,700 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6781745217526551, -1.4864272300629542, -1.471088495971416, 1.687378099682584, 3.0556898828662757], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,719 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.684249541264976, -1.487946022907211, -1.4604570979261733, 1.6919347819443096, 3.055689731002178], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,727 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6843102914600994, -1.4879612108356535, -1.4603507839457208, 1.691980348766927, 3.055689729483537], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,733 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6843108989620506, -1.487961362714938, -1.4603497208059164, 1.691980804435153, 3.0556897294683507], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,748 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6873481869970839, -1.4864427232537238, -1.448200582334464, 1.6919808089918353, 3.0572083704482056], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,756 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6873785598774342, -1.4864275368591118, -1.4480790909497494, 1.6919808090374022, 3.057223556858004], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,767 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6873788636062377, -1.4864273849951655, -1.4480778760359023, 1.6919808090378579, 3.057223708722102], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,776 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6873788666435257, -1.486427383476526, -1.448077863886764, 1.6919808090378623, 3.057223710240743], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,792 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.690416148633912, -1.4864273834613397, -1.4389660178852317, 1.6934994500178686, 3.057223710255929], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,796 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.690446521453816, -1.4864273834611879, -1.4388748994252163, 1.6935146364276685, 3.057223710256081], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,816 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6919654661620218, -1.4879460244411933, -1.432799424320589, 1.6935147882917665, 3.055705069276076], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,820 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6919806556091037, -1.4879612108509934, -1.4327386695695428, 1.6935147898104075, 3.0556898828662757], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,838 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6919808075035747, -1.4879613627150914, -1.4327380620220322, 1.693514789825594, 3.055689731002178], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,846 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.693499450002526, -1.4879613642337324, -1.429700773986544, 1.6935147898257459, 3.055689729483537], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,852 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6935146364275155, -1.4879613642489187, -1.429670401106189, 1.6935147898257474, 3.0556897294683507], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,870 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6935147882917654, -1.4879613642490706, -1.4296700973773855, 1.6935147898257474, 3.055689729468199], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,876 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6950334307904147, -1.489480005229079, -1.4296700943400973, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,886 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6950486172154013, -1.4894951916388792, -1.4296700943097245, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,900 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6950487690796512, -1.4894953435029772, -1.4296700943094207, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,911 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6965674115783003, -1.4910139860016243, -1.4296700943094178, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,920 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.696582598003287, -1.4910291724266107, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,924 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6965827498675368, -1.4910293242908605, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,943 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6981013923661863, -1.4925479667895099, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,948 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6981165787911727, -1.4925631532144963, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,958 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6981167306554226, -1.4925633050787461, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,972 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6981167321740651, -1.4940819475773957, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,982 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6981167321892514, -1.494097134002382, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,990 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6981167321894033, -1.4940972858666322, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:22,996 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6981167321894048, -1.4940972873852745, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,015 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996353731694116, -1.497134569360475, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,020 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996505595792117, -1.4971649421802269, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,031 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507114433097, -1.4971652459084244, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,044 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129619507, -1.5002025309057194, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,056 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.699650712977137, -1.5002329037556925, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,060 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129772889, -1.5002332074841922, -1.4296700943094176, 1.6935147898257474, 3.055689729468197], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,079 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129772904, -1.503270492481491, -1.4296700943094176, 1.6935147898257474, 3.057208370448204], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,087 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129772904, -1.503300865331464, -1.4296700943094176, 1.6935147898257474, 3.057223556858004], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,092 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129772904, -1.5033011690599636, -1.4296700943094176, 1.6935147898257474, 3.057223708722102], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,108 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129772904, -1.5093757360172757, -1.4296700943094176, 1.6919961488457413, 3.057223710240743], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,116 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129772904, -1.5094364816868489, -1.4296700943094176, 1.6919809624359412, 3.057223710255929], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,127 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129772904, -1.5094370891435445, -1.4296700943094176, 1.6919808105718432, 3.057223710256081], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,140 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129772904, -1.5139930181581323, -1.4296700943094176, 1.6934994500332083, 3.055705069276076], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,151 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129772904, -1.514038577448278, -1.4296700943094176, 1.693514636427822, 3.0556898828662757], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,160 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129772904, -1.5140390330411795, -1.4296700943094176, 1.693514788291768, 3.055689731002178], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,164 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129772904, -1.5201136015171355, -1.4296700943094176, 1.6919961488304014, 3.0572083704635435], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,180 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129772904, -1.5201743472018951, -1.4296700943094176, 1.6919809624357878, 3.0572235568581574], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,188 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.06135923151542544, -1.6996507129772904, -1.5201749546587426, -1.4296700943094176, 1.6919808105718417, 3.0572237087221037], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,199 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05984059053541893, -1.6996507129772904, -1.524730883673331, -1.4296700943094176, 1.6919808090532023, 3.057223710240743], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,212 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982540412561887, -1.6996507129772904, -1.524776442963477, -1.4296700943094176, 1.6919808090380157, 3.057223710255929], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,222 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525226152087, -1.6996507129772904, -1.5247768985563783, -1.4296700943094176, 1.6919808090378639, 3.057223710256081], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,230 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.059825250742879886, -1.6996507129772904, -1.5293328260523285, -1.4281514533294108, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,237 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072769348, -1.6996507129772904, -1.5293783853272878, -1.428136266919611, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,255 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.059825250727541614, -1.6996507129772904, -1.5293788409200375, -1.428136115055513, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,261 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.059825250727540094, -1.6996507129772904, -1.5339347684159848, -1.428136113536872, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,270 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5339803276909443, -1.4281361135216855, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,285 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5339807832836938, -1.4281361135215336, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,295 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5354994288196284, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,303 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355146152749877, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,308 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147671395413, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,324 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686581867, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,331 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686733732, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,342 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.535514768673525, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,356 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,366 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,375 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,380 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,395 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,404 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,416 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,428 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,439 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,444 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,452 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,471 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,476 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,487 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,507 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,520 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,524 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,540 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,548 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,560 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,571 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,583 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,591 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,596 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,612 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,620 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,631 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6996507129772904, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,644 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6981320719972837, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,656 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6981168855874837, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,660 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6981167337233856, -1.5355147686735267, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,681 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6965980912247378, -1.5339961276935197, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,684 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6965829047997512, -1.5339809412837195, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,704 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05982525072754008, -1.6965827529355013, -1.5339807894196216, -1.428136113521532, 1.6919808090378625, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,708 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.058306609747533135, -1.695064110436852, -1.5309435059409675, -1.428136113521532, 1.6904621680578558, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,727 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.058291423337733066, -1.6950489240118656, -1.530913133106181, -1.428136113521532, 1.6904469816480556, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,735 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05829127147363506, -1.6950487721476157, -1.5309128293778331, -1.428136113521532, 1.6904468297839577, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,741 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.058291269954994084, -1.6920114886689597, -1.5293941853605428, -1.428136113521532, 1.6889281872853097, 3.05874235123609], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,756 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.058291269939807676, -1.691981115834173, -1.5293789989203699, -1.428136113521532, 1.6889130008603233, 3.05875753764589], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,764 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05829126993965581, -1.6919808121058253, -1.5293788470559682, -1.428136113521532, 1.6889128489960732, 3.058757689509988], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,775 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05829126993965429, -1.6889435271085282, -1.5293788455373243, -1.4296547545015388, 1.6889128474774309, 3.058757691028629], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,788 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05829126993965428, -1.6889131542585554, -1.5293788455221378, -1.429669940911339, 1.6889128474622443, 3.0587576910438155], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,800 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05829126993965428, -1.6889128505300557, -1.5293788455219859, -1.4296700927754369, 1.6889128474620925, 3.0587576910439673], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,804 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05829126993965428, -1.68435692455275, -1.5278602045419774, -1.4296700942940779, 1.690431488442098, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,824 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05829126993965428, -1.684311365292977, -1.5278450181321774, -1.4296700943092644, 1.690446674851898, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,828 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05829126993965428, -1.6843109097003794, -1.5278448662680792, -1.4296700943094163, 1.690446826715996, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,847 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.056772628959647777, -1.6782363412244263, -1.5278448647494385, -1.4311887352894241, 1.690446828234637, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,855 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675744254984771, -1.6781755955396669, -1.527844864734252, -1.4312039216992243, 1.6904468282498235, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,860 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675729068574971, -1.6781749880828192, -1.5278448647341, -1.4312040735633222, 1.6904468282499752, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,879 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728916710873, -1.6721004180882235, -1.5278448647340985, -1.4357599980219837, 1.6904468282499767, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,884 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915192232, -1.6720396723882776, -1.5278448647340985, -1.4358055572665704, 1.6904468282499767, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,895 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915177045, -1.672039064931278, -1.5278448647340985, -1.4358060128590162, 1.6904468282499767, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,899 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - Total packages: 1000
+2025-07-07 17:09:23,907 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176893, -1.6690017768966947, -1.5278448647340985, -1.4403619403549612, 1.6904468282499767, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,920 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.668971404016349, -1.5278448647340985, -1.4404074996299208, 1.6904468282499767, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,923 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6689711002875454, -1.5278448647340985, -1.4404079552226703, 1.6904468282499767, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,945 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6659338152902436, -1.5278448647340985, -1.4480011646786315, 1.6904468282499767, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,947 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6659034424402708, -1.5278448647340985, -1.448077096773191, 1.6904468282499767, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,968 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6643844977317641, -1.5263262237540915, -1.4587083429541843, 1.6904468282499767, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,972 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.664369308284679, -1.5263110373442914, -1.4588146554159942, 1.6904468282499767, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,991 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6643691563902083, -1.5263108854801934, -1.4588157185406123, 1.6904468282499767, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:23,996 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.66133187291125, -1.5247922429815455, -1.469446216031906, 1.6889281872699697, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,004 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6613015000764604, -1.524777056556559, -1.469552521006819, 1.6889130008601698, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,023 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6613011963481126, -1.5247769046923092, -1.469553584056568, 1.6889128489960719, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,028 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6582639113508155, -1.5202209802336468, -1.4847400044871333, 1.6889128474774309, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,039 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6582335385008427, -1.5201754209890603, -1.484891868691439, 1.6889128474622443, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,053 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.658233234772343, -1.5201749653966143, -1.4848933873334822, 1.6889128474620925, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,064 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6551959497750441, -1.5095444739806423, -1.5031170942799839, 1.687394206482084, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,068 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.655165576925071, -1.5094381690664824, -1.503299331349449, 1.687379020072284, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,088 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6551652731965714, -1.5094371060173408, -1.5033011537201435, 1.6873788682081858, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,091 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6551652701592865, -1.4972879675467956, -1.5245621456639455, 1.6873788666895448, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,111 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.6551652701289137, -1.4971664761620902, -1.5247747555833835, 1.6873788666743585, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,119 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728915176892, -1.65516527012861, -1.4971652612482431, -1.524776881682578, 1.6873788666742067, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,124 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.055238648171761974, -1.6551652701286068, -1.4850161212590498, -1.5475565176436716, 1.6858602256941981, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,140 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.055223461761961905, -1.6551652701286068, -1.4848946298591579, -1.5477843140032825, 1.685845039284398, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,147 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.055223309897863906, -1.6551652701286068, -1.4848934149451591, -1.5477865919668787, 1.6858448874203, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,159 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330837922292, -1.6551652701286068, -1.4712256339759582, -1.5675289474866028, 1.684326244921653, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,168 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.055223308364036515, -1.6551652701286068, -1.4710889561662663, -1.5677263710418, 1.6843110584966665, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,184 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388465, -1.6551652701286068, -1.4710875893881694, -1.567728345277352, 1.6843109066324167, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,188 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388313, -1.6551652701286068, -1.4589384478803338, -1.5844334157997821, 1.6797549821737534, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,210 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.6551652701286068, -1.4588169564652556, -1.5846004665050064, 1.679709422929167, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,220 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.6551652701286068, -1.4466666137110509, -1.5967512648521132, 1.6751530443967009, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,234 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.6551652701286068, -1.4465451102835087, -1.5968727728355843, 1.6751074806113762, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,245 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.6551652701286068, -1.4465438952492333, -1.5968739879154188, 1.675107024973523, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,256 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05674194934389006, -1.6536466291486, -1.4374320372188498, -1.604467204966251, 1.6690324564971168, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,260 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675713575369013, -1.6536314427388, -1.437340918638546, -1.6045431371367593, 1.6689717108123527, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,280 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05675728761778813, -1.653631290874702, -1.437340007452743, -1.6045438964584644, 1.668971103355505, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,284 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05523864815642217, -1.653631289356061, -1.4297467934408512, -1.6090998269917018, 1.6659338153209236, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,304 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522346176180851, -1.6536312893408747, -1.4296708613007323, -1.6091453862970344, 1.6659034424405776, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,308 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330989786237, -1.6536312893407228, -1.429670101979331, -1.6091458418900877, 1.6659031387117742, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,329 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330837922291, -1.6521126483607143, -1.4251141714460962, -1.6121831284060315, 1.6659031356744862, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,332 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.055223308364036515, -1.6520974619509141, -1.4250686121407639, -1.612213501271191, 1.6659031356441134, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,352 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388465, -1.6505786691068096, -1.4205122336076905, -1.6137324459798494, 1.6659031356438097, 3.0572390500639615], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,356 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388313, -1.6505634811783685, -1.4204666698223598, -1.613747635426936, 1.6659031356438065, 3.0572238636541615], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,374 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.6505633292990842, -1.4204662141845066, -1.613747787321407, 1.6659031356438065, 3.0572237117900634], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,382 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.6414514819002508, -1.417428927668114, -1.6137477888403517, 1.6674217766238135, 3.0572237102714226], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,388 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.6413603634262623, -1.4173985548029502, -1.6137477888555412, 1.6674369630336137, 3.057223710256236], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,406 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.6413594522415225, -1.4173982510742986, -1.613747788855693, 1.6674371148977116, 3.057223710256084], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,412 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.6322475972496342, -1.415879607057005, -1.6137477888556946, 1.6674371164163526, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,422 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.6321564786997151, -1.415864420616832, -1.6137477888556946, 1.667437116431539, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,436 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.632155567514216, -1.4158642687524303, -1.6137477888556946, 1.6674371164316908, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,446 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.6230437125223203, -1.4158642672337864, -1.6137477888556946, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,455 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.6229525939724014, -1.4158642672186, -1.6137477888556946, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,460 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05522330836388312, -1.6229516827869022, -1.415864267218448, -1.6137477888556946, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,476 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05370466738387617, -1.61687710975502, -1.4158642672184465, -1.6137477888556946, 1.6674371164316923, 3.05874235123609], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,484 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0536894809740761, -1.6168163640247013, -1.4158642672184465, -1.6137477888556946, 1.6674371164316923, 3.05875753764589], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,494 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.053689329109978104, -1.6168157565673982, -1.4158642672184465, -1.6137477888556946, 1.6674371164316923, 3.058757689509988], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,502 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05368932759133712, -1.616815750492825, -1.4158642672184465, -1.6137477888556946, 1.6674371164316923, 3.058757691028629], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,518 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05217068659614421, -1.6092225455320455, -1.4158642672184465, -1.6152664298357013, 1.6674371164316923, 3.0572390500638083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,525 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.052155500186192284, -1.6091466134824377, -1.4158642672184465, -1.6152816162455013, 1.6674371164316923, 3.05722386365416], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,532 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.05215534832209276, -1.6091458541619417, -1.4158642672184465, -1.6152817681095994, 1.6674371164316923, 3.0572237117900634], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,549 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.046080782883424425, -1.6045899236287162, -1.4158642672184465, -1.618319051588254, 1.6674371164316923, 3.0572237102714226], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,557 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.04602003722903774, -1.6045443643233839, -1.4158642672184465, -1.6183494244230403, 1.6674371164316923, 3.057223710256236], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,565 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.046019429772493875, -1.6045439087303306, -1.4158642672184465, -1.6183497281513883, 1.6674371164316923, 3.057223710256084], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,574 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.04146350075790804, -1.5969506992743663, -1.4158642672184465, -1.622905654128692, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,590 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.04141794146776218, -1.5968747671798067, -1.4158642672184465, -1.6229512133884652, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,599 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.04141748587486072, -1.596874007858861, -1.4158642672184465, -1.6229516689810628, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,604 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03686155837891132, -1.5907994363456246, -1.4158642672184465, -1.6320635194170294, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,623 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03681599910395183, -1.5907386906304923, -1.4158642672184465, -1.6321546379213892, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,628 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03681554351120223, -1.5907380831733409, -1.4158642672184465, -1.6321555491064328, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,639 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03529689797526823, -1.5877007951387556, -1.4143456262384404, -1.6412674040983242, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,652 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03528171151990889, -1.5876704222584097, -1.4143304398286403, -1.6413585226482432, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,662 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281559655355295, -1.5876701185296063, -1.4143302879645423, -1.6413594338337423, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,670 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.032244276176695875, -1.5831141925522978, -1.4112930044858873, -1.6474340068656244, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,676 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03221390334190928, -1.5830686332925248, -1.4112626316511008, -1.6474947525959431, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,694 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03221359961356141, -1.583068177699927, -1.411262327922753, -1.6474953600532463, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,700 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.030694955596271424, -1.5800308911839878, -1.4097436839054627, -1.6535699300478464, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,711 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.030679769156098526, -1.5800005183188284, -1.40972849746529, -1.6536306757477923, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,724 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.030679617291696798, -1.5800002145901768, -1.4097283456008882, -1.653631283204792, 1.6674371164316923, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,736 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.029160974793045833, -1.5784815705728832, -1.4082097031022371, -1.6612244941793959, 1.6659184754516854, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,739 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.029145788368059325, -1.5784663841327102, -1.4081945166772507, -1.661300426289142, 1.6659032890418852, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,759 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02914563650380946, -1.5784662322683085, -1.4081943648130006, -1.6613011856102393, 1.6659031371777873, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,767 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02762699400516002, -1.5754289487896511, -1.4081943632943583, -1.6643384751634638, 1.6659031356591463, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,772 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611807580173526, -1.5753985759548645, -1.4081943632791718, -1.6643688480589962, 1.66590313564396, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,790 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02761165571592366, -1.5753982722265165, -1.40819436327902, -1.6643691517879515, 1.665903135643808, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,796 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02761165419728116, -1.5723609872292195, -1.4066757222990114, -1.664369154825241, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,806 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654182094734, -1.5723306143792464, -1.4066605358892115, -1.6643691548556139, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,819 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181942873, -1.5723303106507467, -1.4066603840251133, -1.6643691548559176, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,831 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941354, -1.570811666633455, -1.4066603825064723, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,836 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5707964801932823, -1.406660382491286, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,844 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5707963283288806, -1.4066603824911341, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,860 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5692776858302298, -1.4051417415111265, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,868 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5692624994052433, -1.4051265551013263, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,881 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5692623475409935, -1.4051264032372284, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,891 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.567743705042344, -1.4036077607385804, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,904 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677285186173573, -1.403592574313594, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,908 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283667531074, -1.4035924224493441, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,927 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652344651, -1.4020737799506946, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,932 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652192786, -1.4020585935257082, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,940 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191267, -1.4020584416614583, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,959 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.400539799162809, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,964 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.4005246127378226, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,975 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.4005244608735727, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:24,988 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3990058183749232, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,001 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3989906319499368, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,004 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.398990480085687, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,024 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974718375870383, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,028 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974566511620519, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,047 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974564992978018, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,055 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974564977791595, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,060 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.397456497763973, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,078 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.397456497763821, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,084 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,094 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,108 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,118 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,127 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,132 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,148 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,156 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,166 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,174 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.027611654181941336, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,188 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.029130295161948278, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,196 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.029145481571748347, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,204 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02914563343584635, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,220 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02914563495448733, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,228 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02914563496967374, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,236 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.029145634969825605, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.057223710256083], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,245 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02914563496982712, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.05874235123609], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,261 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02914563496982714, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.05875753764589], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,270 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02914563496982714, -1.5677283652191252, -1.3974564977638195, -1.6643691548559207, 1.6659031356438065, 3.058757689509988], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,276 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02914563496982714, -1.5677283652191252, -1.3989751387438256, -1.6643691548559207, 1.6659031356438065, 3.058757691028629], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,285 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02914563496982714, -1.5677283652191252, -1.3989903251536258, -1.6643691548559207, 1.6659031356438065, 3.0587576910438155], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,300 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02914563496982714, -1.5677283652191252, -1.3989904770177237, -1.6643691548559207, 1.6659031356438065, 3.0587576910439673], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,308 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02914563496982714, -1.5677283652191252, -1.4005091195163717, -1.6643691548559207, 1.6643844946637996, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,316 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02914563496982714, -1.5677283652191252, -1.4005243059413581, -1.6643691548559207, 1.6643693082539994, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,324 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.02914563496982714, -1.5677283652191252, -1.400524457805608, -1.6643691548559207, 1.6643691563899015, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,340 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.030664275949834084, -1.5677283652191252, -1.4020431003042573, -1.6643691548559207, 1.6643691548712605, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,347 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.030679462359634153, -1.5677283652191252, -1.4020582867292437, -1.6643691548559207, 1.6643691548560742, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,356 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.030679614223732152, -1.5677283652191252, -1.4020584385934936, -1.6643691548559207, 1.6643691548559223, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,372 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.030679615742373132, -1.5692470061991322, -1.40509572207215, -1.6643691548559207, 1.6628505138759138, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,380 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.030679615757559543, -1.5692621926089323, -1.4051260949069366, -1.6643691548559207, 1.6628353274661136, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,395 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.030679615757711408, -1.5692623444730303, -1.4051263986352844, -1.6643691548559207, 1.6628351756020157, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,404 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.030679615757712927, -1.5692623459916712, -1.406645042652574, -1.6643691548559207, 1.6628351740833747, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,412 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03067961575771294, -1.5692623460068575, -1.406660229092747, -1.6643691548559207, 1.6628351740681881, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,420 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03067961575771294, -1.5692623460070094, -1.4066603809571487, -1.6643691548559207, 1.6628351740680365, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,436 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03219825673771945, -1.5707809869870177, -1.4081790234557998, -1.6643691548559207, 1.6613165330880282, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,444 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03221344314751951, -1.5707961733968179, -1.4081942098807863, -1.6643691548559207, 1.661301346678228, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,451 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03221359501161752, -1.5707963252609158, -1.408194361745036, -1.6643691548559207, 1.66130119481413, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,468 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.032213596530258494, -1.5723149677595634, -1.4112316452236924, -1.6643691548559207, 1.659782552315482, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,476 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0322135965454449, -1.5723301541845498, -1.411262018058479, -1.6643691548559207, 1.6597673658904957, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,492 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.032213596545596766, -1.5723303060487996, -1.4112623217868268, -1.6643691548559207, 1.6597672140262458, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,500 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.032213596545598286, -1.575367589527456, -1.4112623248241103, -1.6628505138759138, 1.6597672125076033, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,516 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0322135965455983, -1.5753979623622425, -1.411262324854483, -1.6628353274661136, 1.6597672124924168, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,524 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0322135965455983, -1.5753982660905903, -1.4112623248547869, -1.6628351756020157, 1.6597672124922649, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,533 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03373223752560524, -1.5799541920678943, -1.4127809658347967, -1.6628351740833747, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,549 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03374742393540531, -1.5799997513276673, -1.4127961522445969, -1.6628351740681881, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,557 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03374757579950331, -1.5800002069202652, -1.4127963041086948, -1.6628351740680365, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,564 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03374757731814429, -1.5830374934362044, -1.4127963056273358, -1.662835174068035, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,573 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.033747577333330704, -1.5830678663013638, -1.4127963056425223, -1.662835174068035, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,588 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03374757733348256, -1.5830681700300153, -1.4127963056426742, -1.662835174068035, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,596 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03374757733348408, -1.5845868140473087, -1.4127963056426758, -1.662835174068035, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,604 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0337475773334841, -1.5846020004874817, -1.4127963056426758, -1.662835174068035, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,612 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0337475773334841, -1.5846021523518834, -1.4127963056426758, -1.662835174068035, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,629 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0337475773334841, -1.5861207948505343, -1.4127963056426758, -1.662835174068035, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,636 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0337475773334841, -1.586135981275521, -1.4127963056426758, -1.662835174068035, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,645 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0337475773334841, -1.5861361331397708, -1.4127963056426758, -1.662835174068035, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,660 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0337475773334841, -1.58765477563842, -1.4127963056426758, -1.6613165330880284, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,670 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0337475773334841, -1.5876699620634065, -1.4127963056426758, -1.6613013466782283, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,679 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0337475773334841, -1.5876701139276563, -1.4127963056426758, -1.6613011948141303, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,685 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0337475773334841, -1.5876701154462989, -1.4127963056426758, -1.6613011932954893, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,704 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03526621831349105, -1.590707397421499, -1.4127963056426758, -1.6613011932803028, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,709 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03528140472329112, -1.590737770241251, -1.4127963056426758, -1.661301193280151, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,728 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281556587389115, -1.592256714949455, -1.4127963056426758, -1.6613011932801496, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,732 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03528155810603009, -1.592271904396537, -1.4127963056426758, -1.6613011932801494, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,752 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03528155812121651, -1.592272056291008, -1.4127963056426758, -1.6613011932801494, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,756 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03528155812136837, -1.5922720578099525, -1.4127963056426758, -1.6597825523001426, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,777 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369884, -1.5922720578251421, -1.4127963056426758, -1.6597673658903427, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,780 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.592272057825294, -1.4127963056426758, -1.6597672140262447, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,796 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.658248571527597, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,803 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582333851026103, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,817 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332332383605, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,828 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317197181, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,841 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317045316, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,844 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043798, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,864 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,868 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,888 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,892 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,912 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,917 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,938 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,949 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,960 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,964 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,984 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:25,988 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,007 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,015 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,021 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,036 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4127963056426758, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,043 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4143149466226828, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,056 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4143301330324827, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,068 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4143302848965809, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,081 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.415848927395228, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,084 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4158641138202144, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,104 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4158642656844642, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,108 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4173829081831137, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,127 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4173980946081002, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,132 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.41739824647235, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,140 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4189168889709995, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,159 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.418932075395986, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,164 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4189322272602358, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,175 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4204508697588853, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,187 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4204660561838718, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,200 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.035281558121369905, -1.5922720578252956, -1.4204662080481216, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,204 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03680019910137641, -1.5922720578252956, -1.421984850546771, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,223 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.036815385511176475, -1.5922720578252956, -1.4220000369717574, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,228 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.036815537375274474, -1.5922720578252956, -1.4220001888360072, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,236 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0383341798739224, -1.5922720578252956, -1.4265561132946698, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,254 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03834936629890888, -1.5922720578252956, -1.4266016725392565, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,261 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03834951816315874, -1.5922720578252956, -1.4266021281317023, -1.6582332317043782, 1.6597672124922633, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,270 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519681801246, -1.5922720578252956, -1.4311580556276475, -1.6582332317043782, 1.662804494452277, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,285 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03834951969698767, -1.5922720578252956, -1.431203614902607, -1.6582332317043782, 1.6628348672718773, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,295 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03834951969713953, -1.5922720578252956, -1.4312040704953566, -1.6582332317043782, 1.6628351710000733, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,304 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.03834951969714105, -1.5922720578252956, -1.437278638971311, -1.6582332317043782, 1.6628351740373553, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,308 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4373393846560707, -1.6582332317043782, 1.662835174067728, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,324 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4373399921129182, -1.6582332317043782, 1.6628351740680318, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,332 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4403772801474999, -1.6567145907243712, 1.6628351740680347, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,344 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4404076530278456, -1.656699404314571, 1.662835174068035, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,356 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.440407956756649, -1.6566992524504731, 1.662835174068035, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,367 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4449638827339577, -1.6566992509318321, 1.662835174068035, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,375 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.445009441993731, -1.6566992509166458, 1.662835174068035, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,380 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4450098975863286, -1.656699250916494, 1.662835174068035, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,396 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4495658250822747, -1.6566992509164924, 1.662835174068035, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,404 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.449611384357234, -1.6566992509164924, 1.662835174068035, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,415 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4496118399499838, -1.6566992509164924, 1.662835174068035, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,428 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.454167767445932, -1.6566992509164924, 1.664353815048042, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,439 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4542133267208914, -1.6566992509164924, 1.6643690014578418, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,444 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.454213782313641, -1.6566992509164924, 1.6643691533219398, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,452 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4542137868695686, -1.6566992509164924, 1.6643691548405808, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,468 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557324278951347, -1.6566992509164924, 1.6643691548557673, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,476 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557476143053905, -1.6566992509164924, 1.6643691548559192, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,488 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.455747766169493, -1.6566992509164924, 1.6643691548559207, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,501 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4572664086681402, -1.6551806099364856, 1.6643691548559207, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,511 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4572815950931266, -1.6551654235266855, 1.6643691548559207, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,518 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4572817469573764, -1.6551652716625875, 1.6643691548559207, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,524 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.457281748476019, -1.6551652701439465, 1.6643691548559207, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,542 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4572817484912053, -1.6551652701287602, 1.6643691548559207, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,548 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4572817484913572, -1.6551652701286084, 1.6643691548559207, 3.0587576910439687], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,558 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4572817484913587, -1.6551652701286068, 1.6643691548559207, 3.0602763320239754], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,572 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4572817484913587, -1.6551652701286068, 1.6643691548559207, 3.060291518433776], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,584 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4572817484913587, -1.6551652701286068, 1.6643691548559207, 3.0602916702978735], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,588 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557631075113526, -1.6551652701286068, 1.6643691548559207, 3.058773030836508], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,608 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557479211015525, -1.6551652701286068, 1.6643691548559207, 3.058757844441894], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,611 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477692374545, -1.6551652701286068, 1.6643691548559207, 3.0587576925779483], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,631 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677188135, -1.6551652701286068, 1.6643691548559207, 3.060276332039315], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,639 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677036272, -1.6551652701286068, 1.6643691548559207, 3.060291518433929], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,654 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034754, -1.6536466291486, 1.6643691548559207, 3.0602916702978753], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,662 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536314427388, 1.6643691548559207, 3.0602916718165147], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,668 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.653631290874702, 1.6643691548559207, 3.060291671831701], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,686 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.653631289356061, 1.6643691548559207, 3.0602916718318527], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,692 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893408747, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,702 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407228, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,716 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,727 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,732 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,740 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,758 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,764 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,773 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,787 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,797 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,805 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,812 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,830 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,836 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,846 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,860 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,871 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,876 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,884 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,901 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,908 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,921 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,933 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4557477677034738, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,944 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4542291267234668, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,948 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4542139403136667, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,969 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4542137884495687, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+
+2025-07-07 17:09:26,972 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.038349519697141066, -1.5922720578252956, -1.4542137869309277, -1.6536312893407212, 1.6643691548559207, 3.0602916718318545], 0.5, 0.5, 0.008, 0.2, 80)
+

@@ -1,0 +1,10 @@
+2025-07-07 14:29:06,960 - gym_custom_envs_real_ur_drivers_URBasic_robotModelEvent - INFO - Init done
+2025-07-07 14:29:07,461 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Connected
+2025-07-07 14:29:07,461 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - RT_CLient constructor done
+2025-07-07 14:29:07,462 - gym_custom_envs_real_ur_drivers_URBasic_dataLogEvent - INFO - Data logging (not event logging) is disabled
+2025-07-07 14:29:07,462 - gym_custom_envs_real_ur_drivers_URBasic_dataLogEvent - INFO - DataLog constructor done
+2025-07-07 14:29:07,463 - gym_custom_envs_real_ur_drivers_URBasic_dataLogEvent - INFO - DataLog is stopped
+2025-07-07 14:29:07,464 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - RTDE constructor done
+2025-07-07 14:29:07,940 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - Controller version: 3.3.1-60
+2025-07-07 14:29:07,945 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - RTDE started
+2025-07-07 14:29:15,934 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - Total packages: 1000

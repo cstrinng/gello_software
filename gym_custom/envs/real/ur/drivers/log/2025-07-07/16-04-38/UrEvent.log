@@ -1,0 +1,46 @@
+2025-07-07 16:04:38,114 - gym_custom_envs_real_ur_drivers_URBasic_robotModelEvent - INFO - Init done
+2025-07-07 16:04:38,615 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Connected
+2025-07-07 16:04:38,615 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - RT_CLient constructor done
+2025-07-07 16:04:38,616 - gym_custom_envs_real_ur_drivers_URBasic_dataLogEvent - INFO - Data logging (not event logging) is disabled
+2025-07-07 16:04:38,617 - gym_custom_envs_real_ur_drivers_URBasic_dataLogEvent - INFO - DataLog constructor done
+2025-07-07 16:04:38,617 - gym_custom_envs_real_ur_drivers_URBasic_dataLogEvent - INFO - DataLog is stopped
+2025-07-07 16:04:38,618 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - RTDE constructor done
+2025-07-07 16:04:39,104 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - Controller version: 3.3.1-60
+2025-07-07 16:04:39,108 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - RTDE started
+2025-07-07 16:04:39,119 - gym_custom_envs_real_ur_drivers_URBasic_dashboardEvent - INFO - Connected
+2025-07-07 16:04:39,120 - gym_custom_envs_real_ur_drivers_URBasic_dashboardEvent - INFO - UR Dashboard respond Connected: Universal Robots Dashboard Server
+2025-07-07 16:04:39,120 - gym_custom_envs_real_ur_drivers_URBasic_dashboardEvent - INFO - Dashboard server constructor done
+2025-07-07 16:04:39,121 - gym_custom_envs_real_ur_drivers_URBasic_robotConnectorEvent - INFO - Init done
+2025-07-07 16:04:39,121 - gym_custom_envs_real_ur_drivers_URBasic_urScriptEvent - INFO - Init done!!!
+2025-07-07 16:04:39,131 - gym_custom_envs_real_ur_drivers_URBasic_urScriptExtEvent - INFO - Init done
+2025-07-07 16:04:40,710 - gym_custom_envs_real_ur_interfaceEvent - INFO - [] init done
+2025-07-07 16:04:40,710 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+end_freedrive_mode()
+
+2025-07-07 16:04:47,098 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - Total packages: 1000
+2025-07-07 16:04:55,098 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - Total packages: 2000
+2025-07-07 16:04:56,281 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0014210414128572949, -1.6503690485355191, -1.4453221479998988, -1.5759341164691305, 1.6192000787277308, 3.157010225728597], 0.5, 0.5, 0.002, 0.2, 100)
+
+2025-07-07 16:04:56,316 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0018660878135116007, -1.6503861286276928, -1.445310703908102, -1.57593408167539, 1.6191919125103644, 3.157001175656035], 0.5, 0.5, 0.002, 0.2, 100)
+
+2025-07-07 16:04:56,331 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0019091456157143624, -1.6503547496639792, -1.4452983061419886, -1.5759097763297498, 1.6191999176918648, 3.1569922202625307], 0.5, 0.5, 0.002, 0.2, 100)
+
+2025-07-07 16:04:56,353 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0019091944289501145, -1.6503547496639792, -1.4452983061419886, -1.575942133207348, 1.619232436353851, 3.1570085604857177], 0.5, 0.5, 0.002, 0.2, 100)
+
+2025-07-07 16:04:56,372 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0019172841364820253, -1.6503709281027783, -1.4452983061419886, -1.575942133207348, 1.6192080878034583, 3.1570085604857177], 0.5, 0.5, 0.002, 0.2, 100)
+
+2025-07-07 16:04:56,387 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0019410377979678234, -1.650359982606268, -1.445334545766012, -1.5759422424946539, 1.6192245892320027, 3.1569947534370915], 0.5, 0.5, 0.002, 0.2, 100)
+
+2025-07-07 16:04:56,404 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0019348362681067127, -1.6503804837713938, -1.4453822294818324, -1.5759342992203043, 1.6192167399307953, 3.1569900012096626], 0.5, 0.5, 0.002, 0.2, 100)
+
+2025-07-07 16:04:56,419 - gym_custom_envs_real_ur_drivers_URBasic_realTimeClientEvent - INFO - Program send to Robot:
+servoj([0.0019510105702238642, -1.6503643094692773, -1.4453822294818324, -1.5759181249181877, 1.6192249079533643, 3.1570144244058587], 0.5, 0.5, 0.002, 0.2, 100)
+
+2025-07-07 16:05:03,098 - gym_custom_envs_real_ur_drivers_URBasic_rtdeEvent - INFO - Total packages: 3000
