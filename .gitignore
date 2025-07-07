@@ -4,6 +4,8 @@
 # large files
 *.png
 *.gif
+*.log
+*.csv
 
 # mac
 *.DS_Store
