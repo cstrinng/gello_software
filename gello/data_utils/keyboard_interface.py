@@ -10,20 +10,25 @@ KEY_QUIT_RECORDING = pygame.K_q
 
 
 class KBReset:
-    def __init__(self):
+    def __init__(self, cut_frames: bool = False, frames: int = 84):
         pygame.init()
         self._screen = pygame.display.set_mode((800, 800))
         self._set_color(NORMAL)
         self._saved = False
+        self.saved_frames = 0
+        self.frames = frames
+        self.cut_frames = cut_frames
 
     def update(self) -> str:
         pressed_last = self._get_pressed()
-        if KEY_QUIT_RECORDING in pressed_last:
+        if KEY_QUIT_RECORDING in pressed_last or \
+        (self.cut_frames and self.saved_frames > self.frames):
             self._set_color(RED)
             self._saved = False
             return "normal"
 
         if self._saved:
+            self.saved_frames += 1
             return "save"
 
         if KEY_START in pressed_last:

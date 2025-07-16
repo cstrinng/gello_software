@@ -5,7 +5,7 @@ import numpy as np
 
 from gello.cameras.camera import CameraDriver
 from gello.robots.robot import Robot
-
+from ur3_forward_kinematics import forward_kinematics
 
 class Rate:
     def __init__(self, rate: float):
@@ -41,6 +41,7 @@ class RobotEnv:
         return 0
 
     def step(self, joints: np.ndarray) -> Dict[str, Any]:
+        print("step in")
         """Step the environment forward.
 
         Args:
@@ -53,7 +54,7 @@ class RobotEnv:
             self._robot.num_dofs()
         ), f"input:{len(joints)}, robot:{self._robot.num_dofs()}"
         assert self._robot.num_dofs() == len(joints)
-        self._robot.command_joint_state(joints)
+        self._robot.command_joint_state(joints) # 여기로 들어가는거 맞는지 확인!!
         self._rate.sleep()
         return self.get_obs()
 
@@ -70,12 +71,12 @@ class RobotEnv:
             observations[f"{name}_depth"] = depth
 
         robot_obs = self._robot.get_observations()
-        assert "joint_positions" in robot_obs
-        assert "joint_velocities" in robot_obs
+        assert "joint_positions" in robot_obs       # robot_obs 딕셔너리에 joint_positions라는 키가 반드시 있어야 함
+        # assert "joint_velocities" in robot_obs    # velocity no need for data
         assert "ee_pos_quat" in robot_obs
         observations["joint_positions"] = robot_obs["joint_positions"]
-        observations["joint_velocities"] = robot_obs["joint_velocities"]
-        observations["ee_pos_quat"] = robot_obs["ee_pos_quat"]
+        # observations["joint_velocities"] = robot_obs["joint_velocities"]
+        observations["ee_pos_quat"] = forward_kinematics(robot_obs["joint_positions"])  # calculate ur3 forward kinematics
         observations["gripper_position"] = robot_obs["gripper_position"]
         return observations
 

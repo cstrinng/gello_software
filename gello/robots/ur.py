@@ -14,26 +14,7 @@ class URRobot(Robot):
     """A class representing a UR robot."""
 
     def __init__(self, robot_ip: str = "192.168.5.101", no_gripper: bool = False):
-        # import rtde_control
-        # import rtde_receive
 
-        # [print("in ur robot") for _ in range(4)]
-        # try:
-        #     self.robot = rtde_control.RTDEControlInterface(robot_ip)
-        # except Exception as e:
-        #     print(e)
-        #     print(robot_ip)
-
-        # self.r_inter = rtde_receive.RTDEReceiveInterface(robot_ip)
-        # if not no_gripper:
-        #     from gello.robots.robotiq_gripper import RobotiqGripper
-
-        #     self.gripper = RobotiqGripper()
-        #     self.gripper.connect(hostname=robot_ip, port=63352)
-        #     print("gripper connected")
-        #     # gripper.activate()
-
-        # [print("connect") for _ in range(4)]
         self.robot = URScriptInterface(host_ip=robot_ip)
         if not no_gripper:
             # URScriptInterface.comm 안에 이미 RobotiqGripper가 연결되어 있음
@@ -58,9 +39,6 @@ class URRobot(Robot):
         Returns:
             int: The number of joints of the robot.
         """
-        # if self._use_gripper:
-        #     return 7
-        # return 6
         return 7 if self._use_gripper else 6
 
     def _get_gripper_pos(self) -> float:
@@ -81,13 +59,7 @@ class URRobot(Robot):
         Returns:
             T: The current state of the leader robot.
         """
-        # robot_joints = self.r_inter.getActualQ()
-        # if self._use_gripper:
-        #     gripper_pos = self._get_gripper_pos()
-        #     pos = np.append(robot_joints, gripper_pos)
-        # else:
-        #     pos = robot_joints
-        # return pos
+
         joints = self.robot.get_joint_positions()
         if self._use_gripper:
             return np.append(joints, self._get_gripper_pos())
@@ -116,12 +88,12 @@ class URRobot(Robot):
         # self.robot.waitPeriod(t_start)
 
         q = joint_state[:6]
-        hz = 100
+        hz = 15
         dt = 1.0 / hz
         self.robot.servoj(
             q = q.tolist(),
-            t=0.04,
-            lookahead_time=0.05,
+            t = dt, # t=0.04,
+            lookahead_time=dt + 0.02,
             gain=300,
             wait=False,
         )
@@ -144,12 +116,6 @@ class URRobot(Robot):
         Args:
             enable (bool): True to enable freedrive mode, False to disable it.
         """
-        # if enable and not self._free_drive:
-        #     self._free_drive = True
-        #     self.robot.freedriveMode()
-        # elif not enable and self._free_drive:
-        #     self._free_drive = False
-        #     self.robot.endFreedriveMode()
         if enable and not self._free_drive:
             self._free_drive = True
             self.robot.comm.freedrive_mode(wait=True)
@@ -163,7 +129,7 @@ class URRobot(Robot):
         gripper_pos = np.array([joints[-1]])
         return {
             "joint_positions": joints,
-            "joint_velocities": joints,
+            # "joint_velocities": joints,
             "ee_pos_quat": pos_quat,
             "gripper_position": gripper_pos,
         }

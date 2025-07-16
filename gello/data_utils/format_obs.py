@@ -12,7 +12,7 @@ def save_frame(
     obs: Dict[str, np.ndarray],
     action: np.ndarray,
 ) -> None:
-    obs["control"] = action  # add action to obs
+    obs["actions"] = action  # add action to obs
 
     # make folder if it doesn't exist
     folder.mkdir(exist_ok=True, parents=True)

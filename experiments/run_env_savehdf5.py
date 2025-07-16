@@ -3,7 +3,7 @@ import glob
 import time
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Optional, Tuple
+from typing import Optional, Tuple, List, Dict, Any
 
 import numpy as np
 import tyro
@@ -41,7 +41,7 @@ class Args:
     data_dir: str = "~/bc_data"
     bimanual: bool = False
     verbose: bool = False
-    cut_frames: bool = False
+    cut_frames: bool = False # Only needed when you want to save a fixed number of frames 
     frames: int = 84
 
 
@@ -206,11 +206,13 @@ def main(args):
     if args.use_save_interface:
         from gello.data_utils.keyboard_interface import KBReset
 
-        kb_interface = KBReset(args.cut_frames, args.frames)
+        kb_interface = KBReset(cut_frames=args.cut_frames, frames=args.frames)
 
     print_color("\nStart 🚀🚀🚀", color="green", attrs=("bold",))
 
+
     save_path = None
+    buffer: List[Tuple[Dict[str, Any], np.ndarray]] = []
     start_time = time.time()
     while True:
         num = time.time() - start_time
@@ -223,8 +225,7 @@ def main(args):
             flush=True,
         )
         action = agent.act(obs)
-
-
+        
         dt = datetime.datetime.now()
         if args.use_save_interface:
             state = kb_interface.update()
@@ -237,6 +238,7 @@ def main(args):
                 )
                 save_path.mkdir(parents=True, exist_ok=True)
                 print(f"Saving to {save_path}")
+                buffer.clear()
             elif state == "save":
                 assert save_path is not None, "something went wrong"
                 save_frame(save_path, dt, obs, action)
