@@ -206,7 +206,7 @@ def main(args):
     if args.use_save_interface:
         from gello.data_utils.keyboard_interface import KBReset
 
-        kb_interface = KBReset(args.cut_frames, args.frames)
+        kb_interface = KBReset()
 
     print_color("\nStart 🚀🚀🚀", color="green", attrs=("bold",))
 

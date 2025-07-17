@@ -124,6 +124,7 @@ class URRobot(Robot):
             self.robot.comm.end_freedrive_mode(wait=True)
 
     def get_observations(self) -> Dict[str, np.ndarray]:
+        print("get_observation")
         joints = self.get_joint_state()
         pos_quat = np.zeros(7)
         gripper_pos = np.array([joints[-1]])

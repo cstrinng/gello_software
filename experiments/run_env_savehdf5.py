@@ -7,6 +7,7 @@ from typing import Optional, Tuple, List, Dict, Any
 
 import numpy as np
 import tyro
+import h5py
 
 from gello.agents.agent import BimanualAgent, DummyAgent
 from gello.agents.gello_agent import GelloAgent
@@ -206,14 +207,16 @@ def main(args):
     if args.use_save_interface:
         from gello.data_utils.keyboard_interface import KBReset
 
-        kb_interface = KBReset(cut_frames=args.cut_frames, frames=args.frames)
+        kb_interface = KBReset()
 
     print_color("\nStart 🚀🚀🚀", color="green", attrs=("bold",))
 
 
     save_path = None
     buffer: List[Tuple[Dict[str, Any], np.ndarray]] = []
+    recording: bool = False
     start_time = time.time()
+
     while True:
         num = time.time() - start_time
         message = f"\rTime passed: {round(num, 2)}          "
@@ -237,19 +240,44 @@ def main(args):
                     / dt_time.strftime("%m%d_%H%M%S")
                 )
                 save_path.mkdir(parents=True, exist_ok=True)
-                print(f"Saving to {save_path}")
+                print(f"Recording to {save_path}")
                 buffer.clear()
+                recording = True
+
             elif state == "save":
                 assert save_path is not None, "something went wrong"
-                save_frame(save_path, dt, obs, action)
+                buffer.append((obs.copy(), action.copy()))  
+
             elif state == "normal":
-                save_path = None
+                if recording:
+                # End of recording: flush buffer to HDF5
+                    if save_path and buffer:
+                        # Create HDF5 file
+                        h5_file = save_path / "data.hdf5"
+                        with h5py.File(h5_file, 'w') as f:
+                            grp = f.create_group('data')
+                            # keys from first obs
+                            keys = list(buffer[0][0].keys())
+                            # prepare arrays
+                            for key in keys:
+                                # stack obs values
+                                data_arr = np.stack([b[0][key] for b in buffer], axis=0)
+                                grp.create_dataset(key, data=data_arr)
+                            # actions
+                            acts = np.stack([b[1] for b in buffer], axis=0)
+                            grp.create_dataset('actions', data=acts)
+                        print(f"Saved HDF5: {h5_file} ({len(buffer)} frames)")
+                    # reset
+                    recording = False
+                    buffer.clear()
+                    save_path = None
             else:
                 raise ValueError(f"Invalid state {state}")
             
-
+        print("start")
         t0 = time.perf_counter()
         obs = env.step(action)
+        print("end")
         dt = time.perf_counter() - t0
         print(f"[Timing] env. () 소요: {dt*1000:.1f} ms")
 
