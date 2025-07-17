@@ -42,7 +42,6 @@ class RobotEnv:
         return 0
 
     def step(self, joints: np.ndarray) -> Dict[str, Any]:
-        print("step in", flush=True)
         """Step the environment forward.
 
         Args:
@@ -77,10 +76,10 @@ class RobotEnv:
         assert "ee_pos_quat" in robot_obs
         observations["joint_positions"] = robot_obs["joint_positions"]
         # observations["joint_velocities"] = robot_obs["joint_velocities"]
-        observations["ee_pos_quat"] = forward_kinematics(robot_obs["joint_positions"])  # calculate ur3 forward kinematics
+        observations["ee_pos_quat"] = forward_kinematics(robot_obs["joint_positions"])  # Optional!! calculate ur3 forward kinematics
         observations["gripper_position"] = robot_obs["gripper_position"]
 
-        print("\n\n\n\n", observations, file=sys.stderr, flush=True)
+        print(observations, file=sys.stderr, flush=True)
 
         return observations
 

@@ -35,7 +35,10 @@ def forward_kinematics(joint_angles: np.ndarray) -> np.ndarray:
     Returns:
         ee_pose: np.ndarray of shape (7,) = [x, y, z, qx, qy, qz, qw]
     """
-    assert len(joint_angles) == 6, "Expect 6 joint angles"
+
+    if len(joint_angles) < 6:
+        raise ValueError(f"Expect at least 6 joints")
+    joint_angles = joint_angles[:6]
     # Base to TCP homogeneous transform
     T = np.eye(4)
     for idx, q in enumerate(joint_angles):
