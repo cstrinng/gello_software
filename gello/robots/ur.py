@@ -136,7 +136,8 @@ class URRobot(Robot):
 
 
 def main():
-    robot_ip = "192.168.5.101"
+    # robot_ip = "192.168.5.101" # 멀리 (left)
+    robot_ip = "192.168.5.102" # 가까운 (right)
     ur = URRobot(robot_ip, no_gripper=False)
     print(ur)
     ur.set_freedrive_mode(True)

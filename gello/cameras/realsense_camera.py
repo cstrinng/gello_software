@@ -63,7 +63,7 @@ class RealSenseCamera(CameraDriver):
         """
         import cv2
 
-        frames = self._pipeline.wait_for_frames()
+        frames = self._pipeline.wait_for_frames(timeout_ms=10000)
         color_frame = frames.get_color_frame()
         color_image = np.asanyarray(color_frame.get_data())
         depth_frame = frames.get_depth_frame()

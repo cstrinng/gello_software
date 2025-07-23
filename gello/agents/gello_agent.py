@@ -107,12 +107,12 @@ PORT_CONFIG_MAP: Dict[str, DynamixelRobotConfig] = {
     # LARR UR3_left (/w wrist camera)
     "/dev/serial/by-id/usb-FTDI_USB__-__Serial_Converter_FT7WB9MF-if00-port0": DynamixelRobotConfig(
         joint_ids=(1, 2, 3, 4, 5, 6),
-        joint_offsets=(
-           2*np.pi/2, 2*np.pi/2, 2*np.pi/2, 2*np.pi/2, 2*np.pi/2, -1*np.pi/2
-        ),
-        # joint_offsets=(
-        #    2*np.pi/2 , 2*np.pi/2 - np.pi/2, 2*np.pi/2 + np.pi/2, 2*np.pi/2 - np.pi/2, 2*np.pi/2 + np.pi/2, -1*np.pi/2 + 2* np.pi/2
+        # joint_offsets=(   # left
+        #    3*np.pi/2, 2*np.pi/2, 2*np.pi/2, 2*np.pi/2, 2*np.pi/2, -1*np.pi/2
         # ),
+        joint_offsets=(
+           3*np.pi/2, 2*np.pi/2, 2*np.pi/2, 2*np.pi/2, 2*np.pi/2, 0*np.pi/2
+          ),
         joint_signs=(1, 1, -1, 1, 1, 1),
         # joint_signs=(1, -1, 1, -1, 1, -1),
         gripper_config=(7, 294, 252),

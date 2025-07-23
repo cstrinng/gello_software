@@ -21,7 +21,7 @@ class Args:
     """The port that GELLO is connected to."""
 
     # start_joints: Tuple[float, ...] = (0, 0, 0, 0, 0, 0) # deefault
-    start_joints: Tuple[float, ...] = (0, -1.57, -1.57, -1.57, 1.57, 3.14) #ur3
+    start_joints: Tuple[float, ...] = (0, -1.57, -1.57, -1.57, 1.57, 1.57) #ur3
     """The joint angles that the GELLO is placed in at (in radians)."""
 
     joint_signs: Tuple[float, ...] = (1, 1, -1, 1, 1, 1)

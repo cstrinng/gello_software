@@ -1,6 +1,6 @@
 import h5py
 
-hdf5_file = '/home/learning-larr/bc_data/gello/0717_170220/data.hdf5'
+hdf5_file = '/home/learning-larr/bc_data/gello/0718_201746/data.hdf5'
 
 with h5py.File(hdf5_file, 'r') as f:
     data_group = f['data']

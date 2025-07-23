@@ -13,7 +13,8 @@ class Args:
     robot_port: int = 6001
     hostname: str = "127.0.0.1"
     # robot_ip: str = "192.168.1.10"
-    robot_ip: str = "192.168.5.101"
+    # robot_ip: str = "192.168.5.101" # left (멀리)
+    robot_ip: str = "192.168.5.102"
 
 
 def launch_robot_server(args: Args):
