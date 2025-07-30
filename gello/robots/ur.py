@@ -12,7 +12,8 @@ import time
 
 class URRobot(Robot):
     """A class representing a UR robot."""
-
+    _safety_unlocked = False
+    
     def __init__(self, robot_ip: str = "192.168.5.101", no_gripper: bool = False):
 
         self.robot = URScriptInterface(host_ip=robot_ip)
@@ -23,15 +24,49 @@ class URRobot(Robot):
             self._use_gripper = False
         # freedrive 모드는 기본 꺼진 상태로 시작
 
+        # 2) 안전 잠금 해제 로직 (최초 한 번만)
+        if not URRobot._safety_unlocked:
+            self._unlock_safety()
+            URRobot._safety_unlocked = True
+
+        # 3) 나머지 초기화 로직
+        if not no_gripper:
+            self._use_gripper = True
+        else:
+            self._use_gripper = False
+        # freedrive 모드는 기본 꺼진 상태로 시작
         self._free_drive = False
         self.robot.comm.end_freedrive_mode(wait=False)
+        # ... 이하 기존 코드 계속 …
+
+
         self._last_gripper_query_time = 0
         self._last_gripper_pos = 0.0
         
+        # self._last_q = self.get_joint_state()[:6]
+        self._init_qpos = np.deg2rad([0, -90, -90, -90, 90, 90])
+        self.move_to_init(wait=True)  
 
-        # self._free_drive = False
-        # self.robot.endFreedriveMode()
-        # self._use_gripper = not no_gripper
+
+    def _unlock_safety(self):
+        """power on, brake release, protective stop 해제, 팝업 닫기, 에러 리셋."""
+        comm = self.robot.comm
+        dash = comm.robotConnector.DashboardClient
+
+        # 전원 켜기 & 브레이크 해제
+        dash.ur_power_on()
+        dash.ur_brake_release()
+        time.sleep(1.0)
+
+        # 프로텍티브 스톱 해제 & 팝업 닫기
+        dash.ur_unlock_protective_stop()
+        dash.ur_close_safety_popup()
+        time.sleep(1.0)
+
+        # 전체 오류 상태 리셋
+        ok = comm.reset_error()
+        print(f"[SafetyUnlock] Reset OK: {ok}")
+
 
     def num_dofs(self) -> int:
         """Get the number of joints of the robot.
@@ -87,14 +122,29 @@ class URRobot(Robot):
         #     self.gripper.move(gripper_pos, 255, 10)
         # self.robot.waitPeriod(t_start)
 
+
         q = joint_state[:6]
-        hz = 15
+
+        # control_rate_hz = 25
+        # dt = 1.0 / control_rate_hz
+        # acceleration = 1.4
+        # qd = (q - self._last_q) / dt
+
+        # self.robot.speedj(
+        #     qd = qd.tolist(),
+        #     a = acceleration,
+        #     t = dt,
+        #     wait=False,            
+        # )
+        # self._last_q = q
+
+        hz = 25
         dt = 1.0 / hz
         self.robot.servoj(
             q = q.tolist(),
             t = dt, # t=0.04,
-            lookahead_time=dt + 0.02,
-            gain=300,
+            lookahead_time=dt + 0.04,
+            gain=100,
             wait=False,
         )
         if self._use_gripper:
@@ -133,6 +183,9 @@ class URRobot(Robot):
             "ee_pos_quat": pos_quat,
             "gripper_position": gripper_pos,
         }
+    
+    def move_to_init(self, wait: bool = True):
+        self.robot.movej(q=self._init_qpos.tolist(), wait=wait)
 
 
 def main():

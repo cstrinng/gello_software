@@ -35,7 +35,7 @@ from ..URBasic.manipulation import *
 
 pi = np.pi
 # Disable the logging stream from ikpy
-ik.logs.manager.removeHandler(ik.logs.stream_handler)
+# ik.logs.manager.removeHandler(ik.logs.stream_handler)
 
 def Forwardkin_manip(joints,rob='ur10'):    
     '''

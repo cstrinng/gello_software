@@ -8,6 +8,8 @@ from gello.cameras.camera import CameraDriver
 from gello.robots.robot import Robot
 from ur3_forward_kinematics import forward_kinematics
 
+import cv2
+
 class Rate:
     def __init__(self, rate: float):
         self.last = time.time()
@@ -65,10 +67,13 @@ class RobotEnv:
             obs: observation from the environment.
         """
         observations = {}
+
+        ### 이새기가 문제...., 그새기보다 내가 못한게 뭐야~!
         for name, camera in self._camera_dict.items():
-            image, depth = camera.read()
+            image = camera.read()
+            #image = cv2.resize(image, (224, 224))
             observations[f"{name}_rgb"] = image
-            observations[f"{name}_depth"] = depth
+            # observations[f"{name}_depth"] = depth
 
         robot_obs = self._robot.get_observations()
         assert "joint_positions" in robot_obs       # robot_obs 딕셔너리에 joint_positions라는 키가 반드시 있어야 함
@@ -76,10 +81,11 @@ class RobotEnv:
         assert "ee_pos_quat" in robot_obs
         observations["joint_positions"] = robot_obs["joint_positions"]
         # observations["joint_velocities"] = robot_obs["joint_velocities"]
-        observations["ee_pos_quat"] = forward_kinematics(robot_obs["joint_positions"])  # Optional!! calculate ur3 forward kinematics
+        observations["ee_pos_quat"] = forward_kinematics(robot_obs["joint_positions"])
+        # observations["ee_pos_quat"] = robot_obs["ee_pos_quat"]  # Optional!! calculate ur3 forward kinematics
         observations["gripper_position"] = robot_obs["gripper_position"]
 
-        print(observations, file=sys.stderr, flush=True)
+        # print(observations, file=sys.stderr, flush=True)
 
         return observations
 

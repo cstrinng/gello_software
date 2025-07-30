@@ -83,6 +83,7 @@ class UR3RealEnv(gym_custom.Env):
         if lag_occurred:
             warnings.warn('Desired rate of %dHz is not satisfied! (current rate: %dHz)'%(self.rate._freq, 1/(self.rate._actual_cycle_time) ))
         controller_error = lambda status: (status.safety.StoppedDueToSafety) or (not status.robot.PowerOn)
+        print(f"controller error status: {controller_error}")
         if controller_error(self.interface.get_controller_status()):
             done_info = self._recover_from_controller_error()
             return ob, reward, True, done_info
